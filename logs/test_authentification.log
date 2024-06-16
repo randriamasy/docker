@@ -1,0 +1,84 @@
+test_authentification_container  | 
+test_authentification_container  |     ============================
+test_authentification_container  |         Authentication test
+test_authentification_container  |     ============================
+test_authentification_container  |     
+test_authentification_container  |     request done at "/permissions"
+test_authentification_container  |     | username="alice"
+test_authentification_container  |     | password="wonderland"
+test_authentification_container  |     
+test_authentification_container  |     expected result = 200
+test_authentification_container  |     actual result = 200
+test_authentification_container  |     
+test_authentification_container  |     ==>  SUCCESS
+test_authentification_container  |     
+test_authentification_container  | 
+test_authentification_container  |     ============================
+test_authentification_container  |         Authentication test
+test_authentification_container  |     ============================
+test_authentification_container  |     
+test_authentification_container  |     request done at "/permissions"
+test_authentification_container  |     | username="bob"
+test_authentification_container  |     | password="builder"
+test_authentification_container  |     
+test_authentification_container  |     expected result = 200
+test_authentification_container  |     actual result = 200
+test_authentification_container  |     
+test_authentification_container  |     ==>  SUCCESS
+test_authentification_container  |     
+test_authentification_container  | 
+test_authentification_container  |     ============================
+test_authentification_container  |         Authentication test
+test_authentification_container  |     ============================
+test_authentification_container  |     
+test_authentification_container  |     request done at "/permissions"
+test_authentification_container  |     | username="clementine"
+test_authentification_container  |     | password="mandarine"
+test_authentification_container  |     
+test_authentification_container  |     expected result = 403
+test_authentification_container  |     actual result = 403
+test_authentification_container  |     
+test_authentification_container  |     ==>  SUCCESS
+test_authentification_container  |     
+test_authentification_container  | 
+test_authentification_container  |     ============================
+test_authentification_container  |         Authentication test
+test_authentification_container  |     ============================
+test_authentification_container  |     
+test_authentification_container  |     request done at "/permissions"
+test_authentification_container  |     | username="alice"
+test_authentification_container  |     | password="wonderland"
+test_authentification_container  |     
+test_authentification_container  |     expected result = 200
+test_authentification_container  |     actual result = 200
+test_authentification_container  |     
+test_authentification_container  |     ==>  SUCCESS
+test_authentification_container  |     
+test_authentification_container  | 
+test_authentification_container  |     ============================
+test_authentification_container  |         Authentication test
+test_authentification_container  |     ============================
+test_authentification_container  |     
+test_authentification_container  |     request done at "/permissions"
+test_authentification_container  |     | username="bob"
+test_authentification_container  |     | password="builder"
+test_authentification_container  |     
+test_authentification_container  |     expected result = 200
+test_authentification_container  |     actual result = 200
+test_authentification_container  |     
+test_authentification_container  |     ==>  SUCCESS
+test_authentification_container  |     
+test_authentification_container  | 
+test_authentification_container  |     ============================
+test_authentification_container  |         Authentication test
+test_authentification_container  |     ============================
+test_authentification_container  |     
+test_authentification_container  |     request done at "/permissions"
+test_authentification_container  |     | username="clementine"
+test_authentification_container  |     | password="mandarine"
+test_authentification_container  |     
+test_authentification_container  |     expected result = 403
+test_authentification_container  |     actual result = 403
+test_authentification_container  |     
+test_authentification_container  |     ==>  SUCCESS
+test_authentification_container  |     

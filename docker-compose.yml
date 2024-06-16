@@ -1,0 +1,61 @@
+version: '3.8'
+
+services:
+  api:
+    image: datascientest/fastapi:1.0.0  # Assurez-vous de remplacer cette ligne par l'image correcte de votre API
+    container_name: api
+    ports:
+      - "8000:8000"
+    networks:
+      - test_network
+    environment:
+      - API_URL=http://localhost:8000/docs # Ajoutez toutes les variables d'environnement nécessaires pour l'API
+    volumes:
+      - ./logs:/app/logs
+
+  test_authentification:
+    build:
+      context: .
+      dockerfile: Dockerfile.authentification
+    container_name: test_authentification_container
+    networks:
+      - test_network
+    depends_on:
+      - api
+    environment:
+      LOG: '1'
+    volumes:
+      - ./logs:/app/logs
+    
+
+  test_authorization:
+    build:
+      context: .
+      dockerfile: Dockerfile.authorization
+    container_name: test_authorization_container
+    networks:
+      - test_network
+    depends_on:
+      - api
+    environment:
+      LOG: '1'
+    volumes:
+      - ./logs:/app/logs
+
+  test_content:
+    build:
+      context: .
+      dockerfile: Dockerfile.content
+    container_name: test_content_container
+    networks:
+      - test_network
+    depends_on:
+      - api
+    environment:
+      LOG: '1'
+    volumes:
+      - ./logs:/app/logs
+
+networks:
+  test_network:
+    driver: bridge

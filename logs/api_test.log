@@ -1,0 +1,316 @@
+test_authentification_container  | 
+test_authentification_container  |     ============================
+test_authentification_container  |         Authentication test
+test_authentification_container  |     ============================
+test_authentification_container  |     
+test_authentification_container  |     request done at "/permissions"
+test_authentification_container  |     | username="alice"
+test_authentification_container  |     | password="wonderland"
+test_authentification_container  |     
+test_authentification_container  |     expected result = 200
+test_authentification_container  |     actual result = 200
+test_authentification_container  |     
+test_authentification_container  |     ==>  SUCCESS
+test_authentification_container  |     
+test_authentification_container  | 
+test_authentification_container  |     ============================
+test_authentification_container  |         Authentication test
+test_authentification_container  |     ============================
+test_authentification_container  |     
+test_authentification_container  |     request done at "/permissions"
+test_authentification_container  |     | username="bob"
+test_authentification_container  |     | password="builder"
+test_authentification_container  |     
+test_authentification_container  |     expected result = 200
+test_authentification_container  |     actual result = 200
+test_authentification_container  |     
+test_authentification_container  |     ==>  SUCCESS
+test_authentification_container  |     
+test_authentification_container  | 
+test_authentification_container  |     ============================
+test_authentification_container  |         Authentication test
+test_authentification_container  |     ============================
+test_authentification_container  |     
+test_authentification_container  |     request done at "/permissions"
+test_authentification_container  |     | username="clementine"
+test_authentification_container  |     | password="mandarine"
+test_authentification_container  |     
+test_authentification_container  |     expected result = 403
+test_authentification_container  |     actual result = 403
+test_authentification_container  |     
+test_authentification_container  |     ==>  SUCCESS
+test_authentification_container  |     
+test_authentification_container  | 
+test_authentification_container  |     ============================
+test_authentification_container  |         Authentication test
+test_authentification_container  |     ============================
+test_authentification_container  |     
+test_authentification_container  |     request done at "/permissions"
+test_authentification_container  |     | username="alice"
+test_authentification_container  |     | password="wonderland"
+test_authentification_container  |     
+test_authentification_container  |     expected result = 200
+test_authentification_container  |     actual result = 200
+test_authentification_container  |     
+test_authentification_container  |     ==>  SUCCESS
+test_authentification_container  |     
+test_authentification_container  | 
+test_authentification_container  |     ============================
+test_authentification_container  |         Authentication test
+test_authentification_container  |     ============================
+test_authentification_container  |     
+test_authentification_container  |     request done at "/permissions"
+test_authentification_container  |     | username="bob"
+test_authentification_container  |     | password="builder"
+test_authentification_container  |     
+test_authentification_container  |     expected result = 200
+test_authentification_container  |     actual result = 200
+test_authentification_container  |     
+test_authentification_container  |     ==>  SUCCESS
+test_authentification_container  |     
+test_authentification_container  | 
+test_authentification_container  |     ============================
+test_authentification_container  |         Authentication test
+test_authentification_container  |     ============================
+test_authentification_container  |     
+test_authentification_container  |     request done at "/permissions"
+test_authentification_container  |     | username="clementine"
+test_authentification_container  |     | password="mandarine"
+test_authentification_container  |     
+test_authentification_container  |     expected result = 403
+test_authentification_container  |     actual result = 403
+test_authentification_container  |     
+test_authentification_container  |     ==>  SUCCESS
+test_authentification_container  |     
+test_authorization_container  | 
+test_authorization_container  |     ============================
+test_authorization_container  |         Authorization test
+test_authorization_container  |     ============================
+test_authorization_container  |     
+test_authorization_container  |     request done at "/v1/sentiment"
+test_authorization_container  |     | username="bob"
+test_authorization_container  |     | password="builder"
+test_authorization_container  |     
+test_authorization_container  |     expected result = 200
+test_authorization_container  |     actual result = 200
+test_authorization_container  |     
+test_authorization_container  |     ==>  SUCCESS
+test_authorization_container  |     
+test_authorization_container  | 
+test_authorization_container  |     ============================
+test_authorization_container  |         Authorization test
+test_authorization_container  |     ============================
+test_authorization_container  |     
+test_authorization_container  |     request done at "/v2/sentiment"
+test_authorization_container  |     | username="bob"
+test_authorization_container  |     | password="builder"
+test_authorization_container  |     
+test_authorization_container  |     expected result = 403
+test_authorization_container  |     actual result = 403
+test_authorization_container  |     
+test_authorization_container  |     ==>  SUCCESS
+test_authorization_container  |     
+test_authorization_container  | 
+test_authorization_container  |     ============================
+test_authorization_container  |         Authorization test
+test_authorization_container  |     ============================
+test_authorization_container  |     
+test_authorization_container  |     request done at "/v1/sentiment"
+test_authorization_container  |     | username="alice"
+test_authorization_container  |     | password="wonderland"
+test_authorization_container  |     
+test_authorization_container  |     expected result = 200
+test_authorization_container  |     actual result = 200
+test_authorization_container  |     
+test_authorization_container  |     ==>  SUCCESS
+test_authorization_container  |     
+test_authorization_container  | 
+test_authorization_container  |     ============================
+test_authorization_container  |         Authorization test
+test_authorization_container  |     ============================
+test_authorization_container  |     
+test_authorization_container  |     request done at "/v2/sentiment"
+test_authorization_container  |     | username="alice"
+test_authorization_container  |     | password="wonderland"
+test_authorization_container  |     
+test_authorization_container  |     expected result = 200
+test_authorization_container  |     actual result = 200
+test_authorization_container  |     
+test_authorization_container  |     ==>  SUCCESS
+test_authorization_container  |     
+test_authorization_container  | 
+test_authorization_container  |     ============================
+test_authorization_container  |         Authorization test
+test_authorization_container  |     ============================
+test_authorization_container  |     
+test_authorization_container  |     request done at "/v1/sentiment"
+test_authorization_container  |     | username="bob"
+test_authorization_container  |     | password="builder"
+test_authorization_container  |     
+test_authorization_container  |     expected result = 200
+test_authorization_container  |     actual result = 200
+test_authorization_container  |     
+test_authorization_container  |     ==>  SUCCESS
+test_authorization_container  |     
+test_authorization_container  | 
+test_authorization_container  |     ============================
+test_authorization_container  |         Authorization test
+test_authorization_container  |     ============================
+test_authorization_container  |     
+test_authorization_container  |     request done at "/v2/sentiment"
+test_authorization_container  |     | username="bob"
+test_authorization_container  |     | password="builder"
+test_authorization_container  |     
+test_authorization_container  |     expected result = 403
+test_authorization_container  |     actual result = 403
+test_authorization_container  |     
+test_authorization_container  |     ==>  SUCCESS
+test_authorization_container  |     
+test_authorization_container  | 
+test_authorization_container  |     ============================
+test_authorization_container  |         Authorization test
+test_authorization_container  |     ============================
+test_authorization_container  |     
+test_authorization_container  |     request done at "/v1/sentiment"
+test_authorization_container  |     | username="alice"
+test_authorization_container  |     | password="wonderland"
+test_authorization_container  |     
+test_authorization_container  |     expected result = 200
+test_authorization_container  |     actual result = 200
+test_authorization_container  |     
+test_authorization_container  |     ==>  SUCCESS
+test_authorization_container  |     
+test_authorization_container  | 
+test_authorization_container  |     ============================
+test_authorization_container  |         Authorization test
+test_authorization_container  |     ============================
+test_authorization_container  |     
+test_authorization_container  |     request done at "/v2/sentiment"
+test_authorization_container  |     | username="alice"
+test_authorization_container  |     | password="wonderland"
+test_authorization_container  |     
+test_authorization_container  |     expected result = 200
+test_authorization_container  |     actual result = 200
+test_authorization_container  |     
+test_authorization_container  |     ==>  SUCCESS
+test_authorization_container  |     
+test_content_container  | 
+test_content_container  |         ============================
+test_content_container  |             Content test (v1)
+test_content_container  |         ============================
+test_content_container  |         
+test_content_container  |         request done at "/v1/sentiment"
+test_content_container  |         | username="alice"
+test_content_container  |         | password="wonderland"
+test_content_container  |         | sentence="life is beautiful"
+test_content_container  |         
+test_content_container  |         expected sentiment = positive
+test_content_container  |         actual sentiment = positive
+test_content_container  |         
+test_content_container  |         ==>  SUCCESS
+test_content_container  |         
+test_content_container  | 
+test_content_container  |         ============================
+test_content_container  |             Content test (v2)
+test_content_container  |         ============================
+test_content_container  |         
+test_content_container  |         request done at "/v2/sentiment"
+test_content_container  |         | username="alice"
+test_content_container  |         | password="wonderland"
+test_content_container  |         | sentence="life is beautiful"
+test_content_container  |         
+test_content_container  |         expected sentiment = positive
+test_content_container  |         actual sentiment = positive
+test_content_container  |         
+test_content_container  |         ==>  SUCCESS
+test_content_container  |         
+test_content_container  | 
+test_content_container  |         ============================
+test_content_container  |             Content test (v1)
+test_content_container  |         ============================
+test_content_container  |         
+test_content_container  |         request done at "/v1/sentiment"
+test_content_container  |         | username="alice"
+test_content_container  |         | password="wonderland"
+test_content_container  |         | sentence="that sucks"
+test_content_container  |         
+test_content_container  |         expected sentiment = negative
+test_content_container  |         actual sentiment = negative
+test_content_container  |         
+test_content_container  |         ==>  SUCCESS
+test_content_container  |         
+test_content_container  | 
+test_content_container  |         ============================
+test_content_container  |             Content test (v2)
+test_content_container  |         ============================
+test_content_container  |         
+test_content_container  |         request done at "/v2/sentiment"
+test_content_container  |         | username="alice"
+test_content_container  |         | password="wonderland"
+test_content_container  |         | sentence="that sucks"
+test_content_container  |         
+test_content_container  |         expected sentiment = negative
+test_content_container  |         actual sentiment = negative
+test_content_container  |         
+test_content_container  |         ==>  SUCCESS
+test_content_container  |         
+test_content_container  | 
+test_content_container  |         ============================
+test_content_container  |             Content test (v1)
+test_content_container  |         ============================
+test_content_container  |         
+test_content_container  |         request done at "/v1/sentiment"
+test_content_container  |         | username="alice"
+test_content_container  |         | password="wonderland"
+test_content_container  |         | sentence="life is beautiful"
+test_content_container  |         
+test_content_container  |         expected sentiment = positive
+test_content_container  |         actual sentiment = positive
+test_content_container  |         
+test_content_container  |         ==>  SUCCESS
+test_content_container  |         
+test_content_container  | 
+test_content_container  |         ============================
+test_content_container  |             Content test (v2)
+test_content_container  |         ============================
+test_content_container  |         
+test_content_container  |         request done at "/v2/sentiment"
+test_content_container  |         | username="alice"
+test_content_container  |         | password="wonderland"
+test_content_container  |         | sentence="life is beautiful"
+test_content_container  |         
+test_content_container  |         expected sentiment = positive
+test_content_container  |         actual sentiment = positive
+test_content_container  |         
+test_content_container  |         ==>  SUCCESS
+test_content_container  |         
+test_content_container  | 
+test_content_container  |         ============================
+test_content_container  |             Content test (v1)
+test_content_container  |         ============================
+test_content_container  |         
+test_content_container  |         request done at "/v1/sentiment"
+test_content_container  |         | username="alice"
+test_content_container  |         | password="wonderland"
+test_content_container  |         | sentence="that sucks"
+test_content_container  |         
+test_content_container  |         expected sentiment = negative
+test_content_container  |         actual sentiment = negative
+test_content_container  |         
+test_content_container  |         ==>  SUCCESS
+test_content_container  |         
+test_content_container  | 
+test_content_container  |         ============================
+test_content_container  |             Content test (v2)
+test_content_container  |         ============================
+test_content_container  |         
+test_content_container  |         request done at "/v2/sentiment"
+test_content_container  |         | username="alice"
+test_content_container  |         | password="wonderland"
+test_content_container  |         | sentence="that sucks"
+test_content_container  |         
+test_content_container  |         expected sentiment = negative
+test_content_container  |         actual sentiment = negative
+test_content_container  |         
+test_content_container  |         ==>  SUCCESS
+test_content_container  |         

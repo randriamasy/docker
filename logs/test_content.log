@@ -1,0 +1,120 @@
+test_content_container  | 
+test_content_container  |         ============================
+test_content_container  |             Content test (v1)
+test_content_container  |         ============================
+test_content_container  |         
+test_content_container  |         request done at "/v1/sentiment"
+test_content_container  |         | username="alice"
+test_content_container  |         | password="wonderland"
+test_content_container  |         | sentence="life is beautiful"
+test_content_container  |         
+test_content_container  |         expected sentiment = positive
+test_content_container  |         actual sentiment = positive
+test_content_container  |         
+test_content_container  |         ==>  SUCCESS
+test_content_container  |         
+test_content_container  | 
+test_content_container  |         ============================
+test_content_container  |             Content test (v2)
+test_content_container  |         ============================
+test_content_container  |         
+test_content_container  |         request done at "/v2/sentiment"
+test_content_container  |         | username="alice"
+test_content_container  |         | password="wonderland"
+test_content_container  |         | sentence="life is beautiful"
+test_content_container  |         
+test_content_container  |         expected sentiment = positive
+test_content_container  |         actual sentiment = positive
+test_content_container  |         
+test_content_container  |         ==>  SUCCESS
+test_content_container  |         
+test_content_container  | 
+test_content_container  |         ============================
+test_content_container  |             Content test (v1)
+test_content_container  |         ============================
+test_content_container  |         
+test_content_container  |         request done at "/v1/sentiment"
+test_content_container  |         | username="alice"
+test_content_container  |         | password="wonderland"
+test_content_container  |         | sentence="that sucks"
+test_content_container  |         
+test_content_container  |         expected sentiment = negative
+test_content_container  |         actual sentiment = negative
+test_content_container  |         
+test_content_container  |         ==>  SUCCESS
+test_content_container  |         
+test_content_container  | 
+test_content_container  |         ============================
+test_content_container  |             Content test (v2)
+test_content_container  |         ============================
+test_content_container  |         
+test_content_container  |         request done at "/v2/sentiment"
+test_content_container  |         | username="alice"
+test_content_container  |         | password="wonderland"
+test_content_container  |         | sentence="that sucks"
+test_content_container  |         
+test_content_container  |         expected sentiment = negative
+test_content_container  |         actual sentiment = negative
+test_content_container  |         
+test_content_container  |         ==>  SUCCESS
+test_content_container  |         
+test_content_container  | 
+test_content_container  |         ============================
+test_content_container  |             Content test (v1)
+test_content_container  |         ============================
+test_content_container  |         
+test_content_container  |         request done at "/v1/sentiment"
+test_content_container  |         | username="alice"
+test_content_container  |         | password="wonderland"
+test_content_container  |         | sentence="life is beautiful"
+test_content_container  |         
+test_content_container  |         expected sentiment = positive
+test_content_container  |         actual sentiment = positive
+test_content_container  |         
+test_content_container  |         ==>  SUCCESS
+test_content_container  |         
+test_content_container  | 
+test_content_container  |         ============================
+test_content_container  |             Content test (v2)
+test_content_container  |         ============================
+test_content_container  |         
+test_content_container  |         request done at "/v2/sentiment"
+test_content_container  |         | username="alice"
+test_content_container  |         | password="wonderland"
+test_content_container  |         | sentence="life is beautiful"
+test_content_container  |         
+test_content_container  |         expected sentiment = positive
+test_content_container  |         actual sentiment = positive
+test_content_container  |         
+test_content_container  |         ==>  SUCCESS
+test_content_container  |         
+test_content_container  | 
+test_content_container  |         ============================
+test_content_container  |             Content test (v1)
+test_content_container  |         ============================
+test_content_container  |         
+test_content_container  |         request done at "/v1/sentiment"
+test_content_container  |         | username="alice"
+test_content_container  |         | password="wonderland"
+test_content_container  |         | sentence="that sucks"
+test_content_container  |         
+test_content_container  |         expected sentiment = negative
+test_content_container  |         actual sentiment = negative
+test_content_container  |         
+test_content_container  |         ==>  SUCCESS
+test_content_container  |         
+test_content_container  | 
+test_content_container  |         ============================
+test_content_container  |             Content test (v2)
+test_content_container  |         ============================
+test_content_container  |         
+test_content_container  |         request done at "/v2/sentiment"
+test_content_container  |         | username="alice"
+test_content_container  |         | password="wonderland"
+test_content_container  |         | sentence="that sucks"
+test_content_container  |         
+test_content_container  |         expected sentiment = negative
+test_content_container  |         actual sentiment = negative
+test_content_container  |         
+test_content_container  |         ==>  SUCCESS
+test_content_container  |         
